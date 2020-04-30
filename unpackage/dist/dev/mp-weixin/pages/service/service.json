@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "直纯堂孕产康养",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more"
+  }
+}

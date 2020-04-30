@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/test1/直纯堂/main.js"],"names":["Page","App"],"mappings":";;;;;;;;;;AAAA;AACA;AACI,oH;AACAA,IAAI,CAAC,+BAAYC,WAAZ,CAAD,CAAJ,C","file":"pages/aa/aa.js","sourcesContent":["import 'uni-pages';\nimport pageFactory from 'mpvue-page-factory'\n    import App from './pages/aa/aa.vue'\n    Page(pageFactory(App))"],"sourceRoot":""}

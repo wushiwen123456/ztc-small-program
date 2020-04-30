@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "选择地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

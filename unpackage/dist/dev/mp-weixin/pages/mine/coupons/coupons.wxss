@@ -1,0 +1,161 @@
+
+page{
+	background-color: #f3f3f3;
+}
+#tab-bar {
+		border-bottom: none;
+		background: #FFFFFF;
+		margin-top: 2rpx;
+}
+.uni-scroll-view {
+		overflow: Scroll;
+		overflow-x: hidden
+}
+#tab-bar .active{
+		color: #dd4036 !important;
+		border-bottom: 4rpx solid #dd4036!important;
+}
+.swiper-tab-list {
+		width: 100rpx;
+		font-size: 28rpx;
+		text-align: center;
+		margin: 0 70rpx;
+		padding: 18rpx 0;
+		color: #666666;
+}
+.used{
+		padding: 0 30rpx;
+}
+.used .usedList{
+		margin-top: 20rpx;
+		background-color: #fff;
+		position: relative;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding: 40rpx 30rpx;
+}
+.used .usedList .left{
+		width: 30%;
+		text-align: center;
+		font-size: 30rpx;
+}
+.used .usedList .left .common{
+		margin-top: -15rpx;
+}
+.used .usedList .left .packets{
+		margin-top: -20rpx;
+}
+.used .usedList .left .packets ._span{
+		font-size: 60rpx;
+		font-weight: bold;
+}
+.used .usedList .desp{
+		width: 70%;
+		z-index: 99;
+		padding-left: 20rpx;
+		padding-top: 20rpx;
+}
+.used .usedList .desp .name{
+		font-size: 28rpx;
+		color: #333333;
+		line-height: 36rpx;
+}
+.used .usedList .desp .time{
+		color: #999999;
+		font-size: 20rpx;
+		line-height: 24rpx;
+		margin-top: 10rpx;
+}
+.used .usedList .right{
+		right: 35rpx;
+		top: 45rpx;
+}
+.used .usedList .right ._img{
+		width: 116rpx;
+	    height: 116rpx;
+}
+.unused{
+		padding: 0 30rpx;
+}
+.unused .unusedList{
+		background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq4AAAEeCAMAAAB8A2fcAAAASFBMVEUAAAD////////7+/v////////////////////////////////////////////////////////////////////////Y2Njq6urzVF5GAAAAFXRSTlMA+lQHq+KljdpcHyQcA3Z1865sWSZPjhUDAAAEcElEQVR42uzWsYnDQAAAwfPJsuTA4OT6b/VBD65BCzM1bLDjss3X+V1wS9/zNbfxM88Ft3bO8e9zLLi943PlqlYSjusEFiTMMbZ9QcK+jfeCiPd4Loh4Di9Axj4eCyIeY0GGXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELkSIldC5EqIXAmRKyFyJUSuhMiVELnyxy4dkAAAAAAI+v+6HYFucERXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV0Z0ZURXRnRlRFdGdGVEV2LfXlIdhmEwCsux8cAJCX0o3f9Obzsqjaf3BwnON9ICDkaJcSLkikTIFYmQKxKxOh6tOBBcaY9R7WO9ORDabbWvnQMWgZXdfuwOhHXYRXMgqGZXG+sAgiqbTboDIXWbLQ6EtNhsOBDSsFl1IKRqs3q+vfztdTIyBhqrzZ4OhPTkUwt5LMaPLKTRjWsCpFE24xIWaTS7OBwI67Afd1YBBFbu9rWyCSC4ttpHHUvnaEV4pS+j8rQQiZArEiFXJEKuSIRckQi5IhFyRSLkikTIVeJ0/D9ylSBXDXKVIFcNcpUgVw1ylSBXDXKVIFcNcpUgVw1ylSBXDXKVIFcNcpUgVw1ylSBXDXKVIFcNcpUgVw1y/WOXjgUAAAAABvlbj2JfMbTQ9aHrQteHrgtdH7oudH3outD1oetC14euC10fui50fei60PWh60LXh64LXR+6LnR96LrQ9aHrQteHrgtdH7oudH3outD1oetC14euC10fui50fei60PWh60LXh64LXR+6LnR96LrQ9aHrQteHrgtdH7oudH3outD1oetC14euC10fui50fei60PWh60LXh64LXR+6LnR96LrQ9aHrQteHrgtdH7oudH3outD1oetC14euC10fui50fei60LX27OUEQCAIgmjvZ1j34HHyT1VFMIMBG+rFUIeGrkGuJci1BrmWINca5Aor5Aoj5Aoj5Aoj5Aoj5Aoj5AojagmYaIoETIRmAiamdgImtgZrACZiSD0BC123lYCBpcdJrzCwTr36kcCvHV2fsWfwF+CnWsw99LgAmtDBQg0DoN8AAAAASUVORK5CYII=) no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 286rpx;
+		margin-top: 20rpx;
+}
+.unused .unusedList .top{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding: 40rpx 30rpx;
+}
+.unused .unusedList .top .left{
+		width: 30%;
+		text-align: center;
+		font-size: 30rpx;
+}
+.unused .unusedList .top .right{
+		width: 70%;
+		z-index: 99;
+}
+.unused .unusedList .top .left .common{
+		margin-top: -15rpx;
+}
+.unused .unusedList .top .left .packets{
+		margin-top: -20rpx;
+}
+.unused .unusedList .top .left .packets ._span{
+		font-size: 60rpx;
+		font-weight: bold;
+}
+.unused .unusedList .top .desp{
+		width: 70%;
+		z-index: 99;
+		padding-left: 20rpx;
+        padding-top: 20rpx;
+}
+.unused .unusedList .top .desp .name{
+		font-size: 28rpx;
+		color: #333333;
+		line-height: 40rpx;
+}
+.unused .unusedList .top .desp .time{
+		color: #999999;
+		font-size: 22rpx;
+		line-height: 24rpx;
+		margin-top: 10rpx;
+}
+.bottom{
+		width: 100%;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: flex;
+		margin-top: 10rpx;
+		position: relative;
+}
+.bottom view{
+		width: 50%;
+		text-align: center;
+		font-size: 30rpx;
+}
+.share{
+		width: 70%;
+		margin-left: 15%;
+		border-radius: 32rpx;
+	    border: solid 1rpx #dd3e34;
+		padding: 4rpx 0;
+		color: #dd3e34;
+		text-align: center;
+		margin-top: 100rpx;
+}
+.share ._img{
+		width: 38rpx;
+		height: 38rpx;
+		vertical-align: middle;
+		margin-left: 10rpx;
+		position: relative;
+		top:-4rpx;
+}
+

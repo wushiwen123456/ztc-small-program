@@ -1,0 +1,75 @@
+
+.tagB{
+		border-top: 1rpx solid #f3f3f3;
+		border-bottom: 1rpx solid #f3f3f3;
+		padding: 30rpx;
+}
+.tagB .yell{
+		background-color: #fff5e4;
+	    border-radius: 30rpx;
+		color: #b37d1d;
+		font-size: 28rpx;
+		padding: 10rpx 20rpx;
+		margin-right: 30rpx;
+}
+.bad{
+		color: #666666;
+		background-color: #f2f2f2;
+		border-radius: 30rpx;
+		font-size: 28rpx;
+		padding: 10rpx 20rpx;
+		margin-right: 30rpx;
+}
+.activee{
+		background-color: #dd3e34 !important;
+		color: #fff !important;
+}
+.evaluate{
+		padding: 40rpx 30rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 1rpx solid #f3f3f3;
+}
+.evaluate .top{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+}
+.evaluate .evaluateTit view{
+		font-size: 24rpx;
+}
+.evaluate .evaluateCont{
+		font-size: 30rpx;
+		color: #333333;
+		margin-top: 20rpx;
+}
+.evaluate .evaluateTag ._img{
+		width: 42rpx;
+		height: 42rpx;
+}
+.evaluate .evaluateTag{
+		margin-top: 10rpx;
+		color: #999;
+}
+.evaluate .evaluateTag ._span{
+		font-size: 22rpx;
+		border: solid 1rpx #999999;
+		border-radius: 20px;
+		margin-left: 20rpx;
+		padding: 4rpx 20rpx;
+		display: inline-block;
+		margin-top: 20rpx;
+}
+.photo{
+		width: 76rpx;
+		height: 76rpx;
+		border: 1rpx solid #fff;
+		margin-right: 20rpx;
+		position: relative;
+		top:4rpx;
+		background-color: #f3f3f3;
+		border-radius: 100%;
+}
+.photo ._img{
+		border-radius: 100%;
+}
+

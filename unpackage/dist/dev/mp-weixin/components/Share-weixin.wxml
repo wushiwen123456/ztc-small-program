@@ -1,0 +1,1 @@
+<view class="share_btn"><button class="share_btn_b" open-type="share">share</button><image class="share_image" src="/static/weixin.png"></image></view>

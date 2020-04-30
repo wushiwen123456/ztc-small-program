@@ -1,0 +1,1 @@
+<view class="serlist"><view class="img"><image src="{{$root.m0}}" alt class="_img"></image></view><view class="input"><input type="text" confirm-type="search" placeholder="请输入标题关键词" placeholder-style="color: #999999;" data-event-opts="{{[['confirm',[['search']]],['input',[['nameInput',['$event']]]]]}}" value="{{nameValue}}" bindconfirm="__e" bindinput="__e"/></view></view>

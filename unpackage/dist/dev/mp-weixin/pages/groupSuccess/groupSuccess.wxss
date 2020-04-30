@@ -1,0 +1,60 @@
+
+page{
+		background-color: #f3f3f3;
+}
+.groupS{
+		margin-top: 1rpx;
+}
+.top{
+		background-color: #fff;
+}
+.tip{
+    	text-align: center;
+    	color: #1ecd16;
+    	letter-spacing: 3rpx;
+    	font-size: 30rpx;
+		padding-top: 40rpx;
+}
+.tip ._img{
+    	width: 34rpx;
+    	height: 34rpx;
+    	vertical-align: middle;
+    	margin-right: 10rpx;
+}
+.img{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 100rpx;
+}
+.groupImg{
+		display: inline-block;
+		width: 100rpx;
+	    height: 100rpx;
+		border-radius: 100%;
+		position: relative;
+		margin-left: 20rpx;
+		margin-top: 20rpx;
+}
+.groupImg ._img{
+		border-radius: 100%;
+}
+.pin{
+		border: solid 4rpx #dd3e34;
+}
+.spell{
+		position: absolute;
+		left: -10rpx;
+		top:-10rpx;
+		background-color: #dd3e34;
+		color: #fefefe;
+		font-size: 22rpx;
+		border-radius: 17rpx;
+		padding: 0 10rpx;
+}
+.list .listn:nth-last-child(1){
+		border-bottom: none;
+}
+.ell{
+		width: 50%;
+}
+

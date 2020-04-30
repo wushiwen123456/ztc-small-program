@@ -1,0 +1,46 @@
+
+page{
+		background-color: #f3f3f3;
+}
+.address{
+    	margin-top: 1rpx;
+}
+.addressed{
+		margin-bottom: 20rpx;
+}
+.addressed .text{
+		background-color: #fff;
+		padding: 20rpx 30rpx;
+}
+.addressed .text .gray{
+		font-size: 22rpx;
+		margin-left: 30rpx;
+		letter-spacing: 0;
+}
+.addressed .text view{
+		font-size: 28rpx;
+		/* letter-spacing: 2upx; */
+	    color: #333333;
+}
+.operate{
+		margin-top: 2rpx;
+		background-color: #fff;
+		text-align: right;
+		padding: 20rpx 0;
+}
+.operate ._span{
+		margin-right: 40rpx;
+		font-size: 28rpx;
+}
+.operate ._span ._img{
+		width: 34rpx;
+		height: 34rpx;
+		vertical-align: middle;
+		margin-right: 10rpx;
+		position: relative;
+		top:-6rpx;
+}
+.buttonR{
+		margin-top: 100rpx;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "收益明细",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more"
+  }
+}

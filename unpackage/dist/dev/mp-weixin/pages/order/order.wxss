@@ -1,0 +1,108 @@
+
+page{
+		background-color: #f3f3f3;
+}
+#tab-bar {
+			border-bottom: none;
+			background: #FFFFFF;
+			height: 83rpx;
+			line-height: 80rpx;
+}
+uni-view{
+			font-size: 30rpx;
+}
+page .uni-page-head {
+			border-bottom: 1px solid #eaeaea;
+}
+.uni-scroll-view {
+			overflow: Scroll;
+			overflow-x: hidden
+}
+#tab-bar .active {
+			color: #dd3e34;
+			border-bottom: 4rpx solid #dd3e34;
+			padding: 0 2rpx 10rpx 2rpx;
+}
+.swiper-tab-list{
+			width: 90rpx;
+			margin:0 28rpx;
+			text-align: center;
+			font-size: 30rpx;
+			color: #666666;
+}
+.orderList{
+			margin-top: 1rpx;
+}
+.orderList .listo{
+			margin-bottom: 20rpx;
+}
+.title{
+	    position: relative;
+	    background-color: #fff;
+		margin-bottom: 1px;
+		padding: 20rpx 30rpx;
+	    color: #333333;
+		height: 60rpx;
+}
+.title .left{
+		font-size: 30rpx;
+}
+.title .left ._img{
+		width: 55rpx;
+		height: 55rpx;
+		border-radius: 100%;
+		margin-right: 20rpx;
+		vertical-align: middle;
+		margin-top: -8rpx;
+}
+.title .right{
+		right: 30rpx;
+		top:20rpx;
+}
+.photo .left ._img{
+		margin-right: -8rpx;
+		border: 1px solid #fff;
+}
+.photo .right {
+		font-size: 24rpx;
+		top:20rpx;
+}
+.photo .right .price{
+		margin-left: 20rpx;
+}
+.content{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding: 20rpx 30rpx;
+}
+.content .img{
+		width: 178rpx;
+	    height: 178rpx;
+	    background-color: #535353;
+	    border: solid 1px #dddddd;
+}
+.content .cont{
+		margin-left: 20rpx;
+		width: 400rpx;
+}
+.content .cont .tit{
+		font-size: 30rpx;
+		color: #333333;
+}
+.content .cont .txt{
+		font-size: 24rpx;
+		color: #999999;
+}
+.price{
+		font-size: 32rpx;
+}
+.bottom{
+		background-color: #fff;
+		text-align: right;
+		padding: 30rpx;
+}
+.bottom ._span{
+		margin-left: 30rpx;
+}
+

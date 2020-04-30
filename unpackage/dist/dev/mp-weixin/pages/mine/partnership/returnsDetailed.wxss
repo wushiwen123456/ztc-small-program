@@ -1,0 +1,41 @@
+
+page{
+		height: 100%;
+}
+.returns{
+		border-top: 1rpx solid #f3f3f3;
+		height: 100%;
+}
+.returnsList{
+		margin-left: 30rpx;
+}
+.rlist{
+	position: relative;
+	border-bottom: 1rpx solid #f3f3f3;
+	padding: 30rpx 0;
+}
+.rlist .left .tit{
+	font-size: 30rpx;
+	color: #333333;
+}
+.rlist .left .gray{
+	font-size: 24rpx;
+}
+.rlist .red{
+	font-size: 36rpx;
+	top:50rpx;
+}
+.rlist .right{
+	top:44rpx;
+	right: 30rpx;
+}
+.rlist .right .gray{
+	font-size: 24rpx;
+	margin-top: -16rpx;
+}
+.rlist .right .del{
+	font-size: 36rpx;
+	color: #333333;
+	margin-top: -10rpx;
+}
+

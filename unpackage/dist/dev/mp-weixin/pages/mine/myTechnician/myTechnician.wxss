@@ -1,0 +1,47 @@
+
+page{
+		background-color: #f3f3f3;
+}
+.cont{
+	  margin-top: 2rpx;
+	  background-color: #fff;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  padding: 20rpx 30rpx;
+	  position: relative;
+}
+.cont .img{
+	  width: 130rpx;
+	  height: 130rpx;
+	  background-color: #f3f3f3;
+	  border: solid 1rpx #d4d4d4;
+	  border-radius: 50%;
+}
+.cont .txt{
+	  margin-left: 20rpx;
+}
+.cont .txt .tit .name{
+	  font-size: 36rpx;
+}
+.cont .txt .tit .tip{
+	  background-color: #fff5e4;
+	  border-radius: 1rpx;
+	  font-size: 22rpx;
+	  letter-spacing: 1rpx;
+	  color: #b37d1d;
+	  padding: 2rpx 10rpx;
+	  margin-left: 20rpx;
+}
+.cont .txt .text{
+	  font-size: 22rpx;
+	  color: #666666;
+}
+.cont .right{
+	  top:60rpx;
+	  right: 30rpx;
+}
+.cont .right .invite{
+	  padding: 6rpx 20rpx;
+}
+
